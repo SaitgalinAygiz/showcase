@@ -1,0 +1,81 @@
+.u-text-center {
+    margin: 40px 0 0;
+    text-align: center !important;
+}
+
+.courses-filter {
+    padding: 0 15px
+}
+
+.courses-filter select {
+    padding: .3em .5em;
+    height: 2.3em;
+    background-color: #fff;
+    border: 1px solid #706f6f;
+    border-radius: 6px;
+    font-size: 14px;
+    vertical-align: middle;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.courses-filter select:focus {
+    outline: 0;
+    border-color: #129fea;
+}
+
+.borderFind {
+    box-sizing: border-box;
+    display: flex;
+    padding: .4em .5em;
+    font-size: 14px;
+    vertical-align: middle;
+    border: 1px solid #706f6f;
+    border-radius: 6px;
+    height: 2.3em;
+    background-color: #fff;
+}
+
+.borderFind:focus {
+    outline: 0;
+    border-color: #129fea;
+}
+
+.search {
+    display: flex;
+}
+
+.courses-filter-search-btn {
+    margin-left: 6px;
+    width: 32px;
+    height: 32px;
+    line-height: normal;
+    background: #fff url(../pictures/icon-search-25.png) center no-repeat;
+    border: 0;
+    border-radius: 4px;
+}
+
+#filterform {
+    display: flex;
+}
+
+#filterform select {
+    padding: 0 11px;
+    width: 25%;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    #filterform select {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    #filterform {
+        display: block;
+    }
+
+    .borderFind {
+        width: 100%;
+    }
+}

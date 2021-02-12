@@ -1,0 +1,48 @@
+.course-figure {
+    position: relative;
+    overflow: hidden;
+    height: 134px;
+    background: #ddd;
+}
+
+.course-info {
+    padding: 10px 16px;
+    text-align: left;
+    line-height: 22px;
+}
+
+.course-info > p {
+    margin: .4em 0;
+    padding-left: .5em;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.course-info > .course-title {
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.course-info > .course-grade {
+    margin-top: -.2em;
+}
+
+.course-info > .course-genre {
+    margin-top: -.4em;
+    font-size: 11px;
+}
+
+.course-info > .course-meta {
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: 600;
+    color: #00c1ff;
+}
+
+.course-info > .course-controls {
+    margin-bottom: 0;
+    padding-left: 0;
+    font-size: 12px;
+}
